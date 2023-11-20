@@ -448,8 +448,7 @@ main img {
 
 .contato-card button {
     margin: 4rem auto 0 auto;
-    color: var(--branco);
-    text-shadow: 0 0 2px rgba(0, 0, 0, .5);
+    color: var(--roxo-topo-svg);
     font-size: 20px;
     background-color: var(--rosa);
     padding: .75rem;
