@@ -112,3 +112,38 @@ transform: translateX(24px);
 .fa-moon, .fa-sun {
 color: var(--azul-final-svg);
 }
+
+/* Main */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 2.5%;
+}
+
+.apresentacao {
+    width: 55%;
+    color: var(--branco);
+    font-family: var(--krona-font );
+}
+
+.apresentacao h1 {
+    font-size: 26px;
+}
+
+.apresentacao span {
+    font-size: 60px;
+}
+
+.apresentacao strong {
+    color: var(--rosa);
+    font-size: 60px;
+}
+
+main img {
+    width: 40%;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+}
