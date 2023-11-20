@@ -187,3 +187,8 @@ main img {
     border-bottom: 6px solid var(--branco);
     width: 200px;
 }
+
+.destaque {
+    color: var(--rosa);
+    font-size: 24px;
+}
