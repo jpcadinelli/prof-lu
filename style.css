@@ -20,6 +20,10 @@
     --azul-final-svg: rgb(62, 103, 191);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height: 100vh;
     background-color: var(--branco); 
