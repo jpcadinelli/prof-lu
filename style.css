@@ -67,6 +67,11 @@ header li a {
     font-size: 20px;
 }
 
+header li a:hover {
+    color: white;
+    text-shadow: 0 0 4px white;
+}
+
 /* dark mode button*/
 
 body.dark {
