@@ -253,6 +253,98 @@ main img {
     text-align: center;
 }
 
+/* Preços e pacotes */
+
+#precos-pacotes {
+    text-align: center;
+    
+    margin-top: 2em;
+}
+
+#precos-pacotes h2 {
+    color: var(--roxo-topo-svg); 
+    font-family: var(--krona-font);
+    font-size: 40px;
+}
+
+.pacotes-h2 {
+    background-color: var(--rosa);
+    height: 1rem;
+    width: 32rem;
+    margin: -.7rem auto 2rem;
+}
+
+.pacotes {
+    padding: 1rem 2.5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card-pacote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 380px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    margin: 1rem 0;
+}
+
+.top_card-pacote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--roxo-topo-svg);
+    width: 100%;
+    height: 50%;
+    border-radius: 20px 20px 0 0;
+    padding: 2rem 2rem;
+    color: var(--branco);
+    font-family: var(--krona-font);
+}
+
+.top_card-pacote h4 {
+    font-size: 24px;
+}
+
+.preco {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.lista_card-pacote {
+    padding: 2rem;
+    text-align: justify;
+}
+
+.lista_card-pacote li {
+    margin: 1rem 0;
+    list-style: inside;
+}
+
+.button_card-pacote {
+    background-color: lightgray;
+    margin-bottom: 2rem;
+    padding: .75rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.button_card-pacote:hover {
+    background-color: var(--rosa);
+    padding: .8rem;
+    font-size: 18px;
+    transition: .5s;
+}
+
 /* Utilitários */
 
 .mt-2 {
