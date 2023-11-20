@@ -240,8 +240,15 @@ main img {
     font-size: 24px;
 }
 
-.servicos-texto {
+.card-texto {
     color: var(--preto);
+    font-size: 20px;
+    text-align: center;
+}
+
+.servicos-texto {
+    padding: 2rem 2.5%;
+    color: var(--branco);
     font-size: 20px;
     text-align: center;
 }
