@@ -127,6 +127,7 @@ main {
     width: 55%;
     color: var(--branco);
     font-family: var(--krona-font );
+    padding-bottom: 10rem;
 }
 
 .apresentacao h1 {
